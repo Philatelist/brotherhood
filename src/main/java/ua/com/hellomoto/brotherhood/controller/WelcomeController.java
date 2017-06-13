@@ -13,7 +13,7 @@ public class WelcomeController {
 
     @RequestMapping("/app/")
     public String index() {
-        return "Welcome to Brotherhood Application!!! version 0.0.1";
+        return "Welcome to Brotherhood Application!! version 0.0.1";
 //                + ADVANCED_SCORE;
 
     }
