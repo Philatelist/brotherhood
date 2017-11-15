@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active : local
+    active : production
 ---
 #server configuration
 spring:
@@ -15,13 +15,13 @@ spring:
   profiles: local
 
 server:
-  port: 8080
+  port: 8082
   address: localhost
 ---
 # Database
 db:
   driver: org.postgresql.Driver
-  link: jdbc:postgresql://localhost:5432/brotherhood
+  link: jdbc:postgresql://localhost:5433/brotherhood
   username: postgres
   password: postgres
 
